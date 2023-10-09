@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button__price,
 .button__tel {
-  padding: 7px 32px;
+  padding: 15px 32px;
   color: #ffffff;
   border-radius: 28px;
   background: linear-gradient(92deg, #7fc8ee 0%, #5871b4 100%);
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button__tel {
   background: none;
-  border: 1px solid #7FC8EE;
+  border: 1px solid #7fc8ee;
 }
 
 .menu-btn {
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #7FC8EE;
+  background-color: #7fc8ee;
 }
 .menu .button__wrapper {
   display: flex;
@@ -323,7 +323,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  overflow-y: auto;
   top: calc(120px + 60 * ((100vw - 375px) / 1545));
   left: calc(18px + 652 * ((100vw - 375px) / 1545));
   justify-content: center;
@@ -386,6 +385,7 @@ body {
   font-size: 14px;
   position: sticky;
   background: #000000;
+  scroll-behavior: smooth;
 }
 html .wrapper,
 body .wrapper {
