@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     menuBtn.classList.toggle("active");
     menu.classList.toggle("active");
     logo.classList.toggle("active");
+
+    if (menu.classList.contains("active")) {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "auto";
+    }
   });
 
   let arrow = document.querySelector(".arrow"),
@@ -55,6 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
       logo.classList.remove("active");
       // Добавляем класс "active" только к текущей ссылке
       link.classList.add("active");
+
+      if (menu.classList.contains("active")) {
+        document.body.style.overflowY = "hidden";
+      } else {
+        document.body.style.overflowY = "auto";
+      }
     });
   });
 });

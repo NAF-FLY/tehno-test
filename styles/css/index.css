@@ -277,6 +277,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 24px;
 }
+.menu .button__wrapper a {
+  display: contents;
+}
 
 .arrow {
   width: 70px;
