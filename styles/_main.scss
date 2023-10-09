@@ -17,7 +17,7 @@ body {
     font-family: $MainFont;
     font-size: 14px;
     position: sticky;
-    background-image: url(/img/background.jpg);
+    background-image: url(../../img/background.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -58,7 +58,7 @@ body {
     bottom: -5px;
     width: 100%;
     height: 2px;
-    background-color: #7FC8EE;
+    background-color: #7fc8ee;
   }
 }
 
@@ -99,7 +99,7 @@ body {
         bottom: -5px;
         width: 100%;
         height: 2px;
-        background-color: #7FC8EE;
+        background-color: #7fc8ee;
       }
     }
   }
@@ -165,12 +165,12 @@ body {
   cursor: pointer;
 
   &:hover {
-    color: #7CC2E9;
+    color: #7cc2e9;
   }
 }
 
 .primary {
-  color: #7CC2E9;
+  color: #7cc2e9;
 }
 
 .product-img {
@@ -202,7 +202,7 @@ body {
     padding: 0 20px;
     user-select: none;
 
-    >h1 {
+    > h1 {
       text-wrap: balance;
       font-size: 24px;
       font-weight: 400;
@@ -213,7 +213,7 @@ body {
       }
     }
 
-    >p {
+    > p {
       text-wrap: balance;
       font-size: 18px;
       font-weight: 300;
@@ -240,7 +240,7 @@ body {
     padding: 0 20px;
     user-select: none;
 
-    >h1 {
+    > h1 {
       font-family: Lato, sans-serif;
       text-wrap: balance;
       font-size: 24px;
@@ -252,7 +252,7 @@ body {
       }
     }
 
-    >p {
+    > p {
       text-wrap: balance;
       font-family: Lato, sans-serif;
       font-size: 19px;
@@ -338,7 +338,7 @@ body {
     .wrapper__right {
       max-width: 576px;
 
-      >img {
+      > img {
         width: 100%;
       }
     }
