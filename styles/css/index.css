@@ -398,7 +398,7 @@ body .wrapper {
   font-family: "Inter";
   font-size: 14px;
   position: sticky;
-  background-image: url(/img/background.jpg);
+  background-image: url(../../img/background.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -440,7 +440,7 @@ body a {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #7FC8EE;
+  background-color: #7fc8ee;
 }
 
 .header {
@@ -478,7 +478,7 @@ body a {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #7FC8EE;
+  background-color: #7fc8ee;
 }
 .header .flex__right {
   display: flex;
@@ -542,11 +542,11 @@ body a {
   cursor: pointer;
 }
 .lang__list-item:hover {
-  color: #7CC2E9;
+  color: #7cc2e9;
 }
 
 .primary {
-  color: #7CC2E9;
+  color: #7cc2e9;
 }
 
 .product-img {
