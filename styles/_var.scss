@@ -32,7 +32,7 @@ $maxWidthContainer: 1200;
   &:hover {
     background: #ffffff;
 
-    > svg {
+    >svg {
       path {
         fill: #000000;
       }
@@ -62,7 +62,7 @@ $maxWidthContainer: 1200;
 .swiper-slide {
   text-align: center;
 
-  > p {
+  >p {
     margin: 14px auto 0;
     max-width: 172px;
     font-size: 15px;
@@ -152,9 +152,6 @@ $maxWidthContainer: 1200;
     top: calc(50% - 5px);
   }
 
-  &:nth-of-type(3) {
-    top: calc(50%);
-  }
 }
 
 @media (max-width: 767.98px) {

@@ -10,6 +10,7 @@ body {
 
   .wrapper {
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     min-width: 320px;
     min-height: 1200px;
@@ -34,6 +35,56 @@ body {
     }
   }
 
+  .light_1 {
+    position: fixed;
+    top: -15%;
+    left: 0%;
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
+    background: #7FC8EE;
+    filter: blur(134px);
+
+    @media (max-width: 449.98px) {
+      left: -50%;
+    }
+  }
+
+  .light_2 {
+    position: fixed;
+    top: 20%;
+    right: 0%;
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
+    background: #5871B4;
+    filter: blur(134px);
+
+    @media (max-width: 449.98px) {
+      top: 20%;
+      right: -80%;
+    }
+  }
+
+  .light_3 {
+    position: absolute;
+    bottom: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
+    background: #5871B4;
+    filter: blur(134px);
+
+    @media (max-width: 449.98px) {
+      display: none;
+    }
+  }
+
   ._container {
     max-width: $maxWidthContainer + px;
     margin: 0 auto;
@@ -41,6 +92,7 @@ body {
   }
 
   .main {
+    position: relative;
     flex: 1 1 auto;
   }
 
@@ -196,6 +248,8 @@ body {
   }
 
   .main__hero {
+    position: relative;
+    z-index: 2;
     gap: 8px;
     display: flex;
     text-align: center;
@@ -203,7 +257,7 @@ body {
     padding: 0 20px;
     user-select: none;
 
-    > h1 {
+    >h1 {
       text-wrap: balance;
       font-size: 24px;
       font-weight: 400;
@@ -214,7 +268,7 @@ body {
       }
     }
 
-    > p {
+    >p {
       text-wrap: balance;
       font-size: 18px;
       font-weight: 300;
@@ -232,6 +286,8 @@ body {
   margin: 58px auto 0;
 
   .main__hero {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -241,7 +297,7 @@ body {
     padding: 0 20px;
     user-select: none;
 
-    > h1 {
+    >h1 {
       font-family: Lato, sans-serif;
       text-wrap: balance;
       font-size: 24px;
@@ -253,7 +309,7 @@ body {
       }
     }
 
-    > p {
+    >p {
       text-wrap: balance;
       font-family: Lato, sans-serif;
       font-size: 19px;
@@ -329,6 +385,17 @@ body {
           font-weight: 300;
           line-height: normal;
 
+          span {
+            color: #7DC3EA;
+            font-size: 19px;
+            font-weight: 300;
+            line-height: normal;
+
+            @media (max-width: 767.98px) {
+              font-size: 14px;
+            }
+          }
+
           @media (max-width: 767.98px) {
             font-size: 14px;
           }
@@ -339,7 +406,7 @@ body {
     .wrapper__right {
       max-width: 576px;
 
-      > img {
+      >img {
         width: 100%;
       }
     }
@@ -376,6 +443,7 @@ body {
 }
 
 .footer {
+  position: relative;
   margin-bottom: 35px;
 
   @media (max-width: 449.98px) {

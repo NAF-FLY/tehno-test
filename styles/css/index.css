@@ -212,9 +212,6 @@ h1, h2, h3, h4, h5, h6 {
 .menu-btn span:nth-of-type(2) {
   top: calc(50% - 5px);
 }
-.menu-btn:nth-of-type(3) {
-  top: 50%;
-}
 
 @media (max-width: 767.98px) {
   .navigation {
@@ -393,6 +390,7 @@ body {
 html .wrapper,
 body .wrapper {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   min-width: 320px;
   min-height: 1200px;
@@ -418,6 +416,62 @@ body .wrapper {
     background-size: auto;
   }
 }
+html .light_1,
+body .light_1 {
+  position: fixed;
+  top: -15%;
+  left: 0%;
+  width: 450px;
+  height: 450px;
+  border-radius: 450px;
+  background: #7FC8EE;
+  filter: blur(134px);
+}
+@media (max-width: 449.98px) {
+  html .light_1,
+  body .light_1 {
+    left: -50%;
+  }
+}
+html .light_2,
+body .light_2 {
+  position: fixed;
+  top: 20%;
+  right: 0%;
+  width: 450px;
+  height: 450px;
+  border-radius: 450px;
+  background: #5871B4;
+  filter: blur(134px);
+}
+@media (max-width: 449.98px) {
+  html .light_2,
+  body .light_2 {
+    top: 20%;
+    right: -80%;
+  }
+}
+html .light_3,
+body .light_3 {
+  position: absolute;
+  bottom: -10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  border-radius: 450px;
+  background: #5871B4;
+  filter: blur(134px);
+}
+@media (max-width: 449.98px) {
+  html .light_3,
+  body .light_3 {
+    display: none;
+  }
+}
 html ._container,
 body ._container {
   max-width: 1200px;
@@ -426,6 +480,7 @@ body ._container {
 }
 html .main,
 body .main {
+  position: relative;
   flex: 1 1 auto;
 }
 html a,
@@ -577,6 +632,8 @@ body a {
   }
 }
 .block_1 .main__hero {
+  position: relative;
+  z-index: 2;
   gap: 8px;
   display: flex;
   text-align: center;
@@ -612,6 +669,8 @@ body a {
   margin: 58px auto 0;
 }
 .block_2 .main__hero {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -708,6 +767,17 @@ body a {
   font-weight: 300;
   line-height: normal;
 }
+.block_3 .flex__wrapper .wrapper__left .left__text p span {
+  color: #7DC3EA;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: normal;
+}
+@media (max-width: 767.98px) {
+  .block_3 .flex__wrapper .wrapper__left .left__text p span {
+    font-size: 14px;
+  }
+}
 @media (max-width: 767.98px) {
   .block_3 .flex__wrapper .wrapper__left .left__text p {
     font-size: 14px;
@@ -744,6 +814,7 @@ body a {
   }
 }
 .footer {
+  position: relative;
   margin-bottom: 35px;
 }
 @media (max-width: 449.98px) {
