@@ -4,7 +4,6 @@ body {
   width: 100%;
   font-family: $MainFont;
   font-size: 14px;
-  position: sticky;
   background: #000000;
   scroll-behavior: smooth;
 
@@ -18,7 +17,6 @@ body {
     margin: 0 auto;
     font-family: $MainFont;
     font-size: 14px;
-    position: sticky;
     background-image: url(../../img/background.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
