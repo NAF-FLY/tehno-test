@@ -41,7 +41,8 @@ body {
     box-shadow: 0 0 250px 350px #7fc8ee;
 
     @media (max-width: 449.98px) {
-      left: -50%;
+      top: -25%;
+      left: -80%;
     }
   }
 
@@ -54,7 +55,7 @@ body {
 
     @media (max-width: 449.98px) {
       top: 35%;
-      right: -60%;
+      right: -55%;
     }
   }
 
@@ -65,7 +66,7 @@ body {
     border-radius: 450px;
     box-shadow: 0 0 250px 300px #5871b4;
 
-    @media (max-width: 449.98px) {
+    @media (max-width: 1100px) {
       display: none;
     }
   }
